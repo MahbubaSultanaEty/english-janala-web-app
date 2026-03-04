@@ -76,33 +76,15 @@ const loadWordDetail = async(id) => {
 }
 
 // {word: 'Eager', meaning: 'আগ্রহী', pronunciation: 'ইগার', level: 1, sentence: 'The kids were eager to open their gifts.', …}
-// id
-// : 
-// 5
-// level
-// : 
-// 1
-// meaning
-// : 
-// "আগ্রহী"
-// partsOfSpeech
-// : 
-// "adjective"
-// points
-// : 
-// 1
-// pronunciation
-// : 
-// "ইগার"
-// sentence
-// : 
-// "The kids were eager to open their gifts."
-// synonyms
-// : 
-// (3) ['enthusiastic', 'excited', 'keen']
-// word
-// : 
-// "Eager"
+// id :  5
+// level :  1
+// meaning : "আগ্রহী"
+// partsOfSpeech :  "adjective"
+// points :  1
+// pronunciation :  "ইগার"
+// sentence :  "The kids were eager to open their gifts."
+// synonyms :  (3) ['enthusiastic', 'excited', 'keen']
+// word :  "Eager"
 
 const displayWordDetail = (detail) => {
     console.log(detail);
